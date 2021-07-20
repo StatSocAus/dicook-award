@@ -5,7 +5,7 @@ navbar:
   left:
     - text: "Rules of the award"
       href: https://StatSocAus.github.io/software-award/rules.html
-    - text: "Rules of the award"
+    - text: "About"
       href: https://StatSocAus.github.io/software-award/about.html
     - text: "Entries"
       menu:
@@ -19,6 +19,6 @@ output_dir: "."
 exclude: ["README*"]
 output:
   html_document:
-    theme: paper
+    theme: cerulean
     highlight: textmate
     css: "style.css"
