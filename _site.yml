@@ -1,7 +1,7 @@
 # This file controls the layout of the website.
 navbar:
   icon: fa-home
-  title: "SSA Vic Di Cook software award"
+  title: "Di Cook Award - SSA Vic"
   left:
     - text: "Rules of the award"
       href: https://StatSocAus.github.io/software-award/rules.html

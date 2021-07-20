@@ -1,5 +1,5 @@
 ---
-title: "Di Cook software award"
+title: "Di Cook Software Award"
 output: html_document
 author: Statistical Society of Australia - Victorian Branch
 ---
