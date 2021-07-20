@@ -1,0 +1,11 @@
+---
+title: "About"
+output: html_document
+author: Statistical Society of Australia - Victorian Branch
+---
+
+# Di Cook Award
+
+Professor Dianne Cook was born and raised in regional NSW, completing her Bachelor of Science at the University of New England before heading to the USA to complete her PhD in Statistics at Rutgers University. Prof. Cook spent most of her academic career at the Department of Statistics at the Iowa State University before returning back to Australia in 2015 to join the Department of Econometrics and Business Statistics at Monash University. 
+
+She is particularly well known for her research in visual inference and high-dimensional data visualisation and an avid advocator of statistical software development. A number of students under her supervision have developed highly successful R-packages, including Hadley Wickham for `ggplot2`, Yihui Zie for `knitr` and Earo Wang for `tsibble.`

@@ -1,0 +1,24 @@
+# This file controls the layout of the website.
+navbar:
+  icon: fa-home
+  title: "SSA Vic Di Cook software award"
+  left:
+    - text: "Rules of the award"
+      href: https://StatSocAus.github.io/rules.html
+    - text: "Rules of the award"
+      href: https://StatSocAus.github.io/about.html
+    - text: "Entries"
+      menu:
+        - text: Alice
+        - href: https://StatSocAus.github.io/alice.html
+        - text: Bob
+        - href: https://StatSocAus.github.io/bob.html
+        - text: Charlie
+        - href: https://StatSocAus.github.io/charlie.html
+output_dir: "."
+exclude: ["README*"]
+output:
+  html_document:
+    theme: paper
+    highlight: textmate
+    css: "style.css"
