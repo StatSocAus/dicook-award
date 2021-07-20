@@ -4,17 +4,17 @@ navbar:
   title: "SSA Vic Di Cook software award"
   left:
     - text: "Rules of the award"
-      href: https://StatSocAus.github.io/rules.html
+      href: https://StatSocAus.github.io/software-award/rules.html
     - text: "Rules of the award"
-      href: https://StatSocAus.github.io/about.html
+      href: https://StatSocAus.github.io/software-award/about.html
     - text: "Entries"
       menu:
         - text: Alice
-        - href: https://StatSocAus.github.io/alice.html
+        - href: https://StatSocAus.github.io/software-award/alice.html
         - text: Bob
-        - href: https://StatSocAus.github.io/bob.html
+        - href: https://StatSocAus.github.io/software-award/bob.html
         - text: Charlie
-        - href: https://StatSocAus.github.io/charlie.html
+        - href: https://StatSocAus.github.io/software-award/charlie.html
 output_dir: "."
 exclude: ["README*"]
 output:
