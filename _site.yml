@@ -21,4 +21,4 @@ output:
   html_document:
     theme: cerulean
     highlight: textmate
-    css: "style.css"
+    css: "assets/style.css"
