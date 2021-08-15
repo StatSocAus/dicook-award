@@ -1,13 +1,24 @@
 ---
-title: "Di Cook Software Award"
-output: html_document
-author: Statistical Society of Australia - Victorian Branch
+title: "Di Cook Award"
+description: |
+  Open-Source Statistical Software Award by Statistical Society Australia, Victorian Branch
+site: distill::distill_website
 ---
 
-<center>
-<img src="img/SSA_logo.png" width="300" />
-</center>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 
-The Di Cook award was established in 2021 by the Statistical Society of Australia, Victorian Branch. This award was created to recognise outstanding open-source statistical software and student developers in the state of Victoria, Australia.
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
 
-In this website, you can find a myriad of high-quality entries currently in the competition. 
+```
+
+Statistical software tools make a considerable difference to the daily life of an analyst. This Award aims to
+
+1. encourage statistical software development by providing formal recognition of these developments, 
+2. showcase the pool of statistical software developers in our local communities and 
+3. raise awareness of the statistical tools developed by community members. 
+
+The use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. As a technical note, proprietary software can present a barrier to evaluation, because judges may not have access and thus be unable to conduct a thorough assessment.
+
+SSA Vic proposes to run a local statistical software award, named the Di Cook Award, eligible to both full-time and part-time students enrolled (or within one year of graduation) in an educational institution in Victoria or Tasmania. The software development needs to have been started while enrolled as a student. This makes a SSA student competition available in Victoria/Tasmania, on par with the NSW Branch and Canberra Branch, which have the J.B. Douglas Award and Dennis Trewin Prize, respectively, for their students. 

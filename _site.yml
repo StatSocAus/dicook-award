@@ -1,24 +1,19 @@
-# This file controls the layout of the website.
+name: "."
+title: "Di Cook Award"
+theme: assets/style.css
+description: |
+  Di Cook Award
+output_dir: "_site"
+base_url: https://statsocaus.github.io/dicook-award/
 navbar:
-  icon: fa-home
-  title: "Di Cook Award - SSA Vic"
-  left:
-    - text: "Rules of the award"
-      href: https://StatSocAus.github.io/software-award/rules.html
+  logo:
+    image: img/SSA_logo.png
+    href: https://www.statsoc.org.au/
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Gallery"
+      href: gallery.html
     - text: "About"
-      href: https://StatSocAus.github.io/software-award/about.html
-    - text: "Entries"
-      menu:
-        - text: Alice
-        - href: https://StatSocAus.github.io/software-award/alice.html
-        - text: Bob
-        - href: https://StatSocAus.github.io/software-award/bob.html
-        - text: Charlie
-        - href: https://StatSocAus.github.io/software-award/charlie.html
-output_dir: "."
-exclude: ["README*"]
-output:
-  html_document:
-    theme: cerulean
-    highlight: textmate
-    css: "assets/style.css"
+      href: about.html
+output: distill::distill_article

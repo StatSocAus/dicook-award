@@ -1,9 +1,0 @@
----
-title: "Charlie's entry"
-output: html_document
-author: 
-  - Charlie Citizen
-  - Delta Citizen
-  - Team of many people.
----
-

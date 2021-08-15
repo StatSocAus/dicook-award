@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Di Cook Award</title>
+    <link>https://statsocaus.github.io/dicook-award/</link>
+    <atom:link href="https://statsocaus.github.io/dicook-award/gallery.xml" rel="self" type="application/rss+xml"/>
+    <description>Di Cook Award
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Team Alpha</title>
+      <dc:creator>Unknown</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-alpha</link>
+      <description>A short description of the post.</description>
+      <guid>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-alpha</guid>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Team Beta</title>
+      <dc:creator>Unknown</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-beta</link>
+      <description>A short description of the post.</description>
+      <guid>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-beta</guid>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

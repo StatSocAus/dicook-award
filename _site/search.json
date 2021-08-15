@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this award",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\nAbout the Award\r\nStatistical software tools make a considerable difference to the daily life of an analyst. This Award aims to\r\nencourage statistical software development by providing formal recognition of these developments\r\nshowcase the pool of statistical software developers in our local communities and\r\nraise awareness of the statistical tools developed by community members.\r\nThe use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. As a technical note, proprietary software can present a barrier to evaluation, because judges may not have access and thus be unable to conduct a thorough assessment.\r\nProfessor Dianne Cook\r\nProfessor Dianne Cook was born and raised in regional Australia. She completed her Bachelor of Science at the University of New England before heading to the USA to complete her PhD in Statistics at Rutgers University. Prof. Cook spent most of her academic career at the Department of Statistics at the Iowa State University before returning back to Australia in 2015 to join the Department of Econometrics and Business Statistics at Monash University. She is particularly well known for her research in visual inference and high-dimensional data visualisation and as an avid advocate of statistical software development. A number of students under her supervision have developed highly successful R packages, including Hadley Wickham who developed ggplot2, Yihui Xie who developed knitr and Earo Wang who developed tsibble.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-15T12:47:56+10:00"
+    },
+    {
+      "path": "gallery.html",
+      "title": "Gallery of entries",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-15T12:47:57+10:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Di Cook Award",
+      "description": "Open-Source Statistical Software Award by Statistical Society Australia, Victorian Branch\n",
+      "author": [],
+      "contents": "\r\nStatistical software tools make a considerable difference to the daily life of an analyst. This Award aims to\r\nencourage statistical software development by providing formal recognition of these developments,\r\nshowcase the pool of statistical software developers in our local communities and\r\nraise awareness of the statistical tools developed by community members.\r\nThe use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. As a technical note, proprietary software can present a barrier to evaluation, because judges may not have access and thus be unable to conduct a thorough assessment.\r\nSSA Vic proposes to run a local statistical software award, named the Di Cook Award, eligible to both full-time and part-time students enrolled (or within one year of graduation) in an educational institution in Victoria or Tasmania. The software development needs to have been started while enrolled as a student. This makes a SSA student competition available in Victoria/Tasmania, on par with the NSW Branch and Canberra Branch, which have the J.B. Douglas Award and Dennis Trewin Prize, respectively, for their students.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-15T12:47:57+10:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

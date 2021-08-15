@@ -1,0 +1,13 @@
+---
+title: "Team Beta"
+description: |
+  A short description of the post.
+author:
+  - name: Unknown
+date: 08-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta

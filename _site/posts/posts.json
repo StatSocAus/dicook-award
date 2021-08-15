@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-08-15-team-alpha/",
+    "title": "Team Alpha",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Unknown",
+        "url": {}
+      }
+    ],
+    "date": "2021-08-15",
+    "categories": [],
+    "contents": "\r\nAlpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T12:35:26+10:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-08-15-team-beta/",
+    "title": "Team Beta",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Unknown",
+        "url": {}
+      }
+    ],
+    "date": "2021-08-15",
+    "categories": [],
+    "contents": "\r\nBeta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-08-15T12:35:33+10:00",
+    "input_file": {}
+  }
+]
