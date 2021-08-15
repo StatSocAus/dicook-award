@@ -3,7 +3,7 @@ title: "Di Cook Award"
 theme: assets/style.css
 description: |
   Di Cook Award
-output_dir: "_site"
+output_dir: "docs"
 base_url: https://statsocaus.github.io/dicook-award/
 navbar:
   logo:
