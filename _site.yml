@@ -12,8 +12,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Dates"
-      href: dates.html
+    - text: "Submission"
+      href: submission.html
     - text: "Showcase"
       href: showcase.html
     - text: "Examples"

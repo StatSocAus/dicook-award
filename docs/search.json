@@ -6,14 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nProfessor Dianne Cook\nProfessor Dianne Cook was born and raised in regional Australia. She completed her Bachelor of Science at the University of New England before heading to the USA to complete her PhD in Statistics at Rutgers University. Prof. Cook spent most of her academic career at the Department of Statistics at the Iowa State University before returning back to Australia in 2015 to join the Department of Econometrics and Business Statistics at Monash University. She is particularly well known for her research in visual inference and high-dimensional data visualisation and as an avid advocate of statistical software development. A number of students under her supervision have developed highly successful R packages, including Hadley Wickham who developed ggplot2, Yihui Xie who developed knitr and Earo Wang who developed tsibble.\nCriteria and structure\nThe Award is open to students, or students who graduated within one year of the application due date, of Victorian or Tasmanian tertiary institutes only.\nThe Award is not open to any work that has won another software competition or award, although the applicant may submit separate work that is significantly different to any previously winning work.\nThe applicant must have begun the development while enrolled as a student and must currently be a student or within a year since graduation at the time of application.\nThe applicant does not need to be a SSA member to apply for this award.\nBoth individuals and teams are eligible to participate in this competition.\nIf the software development was a team effort, the major contribution should be that of the students.\nThe winners may be asked to give a presentation about their tool in an event in 2022.\nJudges will be drawn from expert statistical software developers who are not entrants in the current round. The judges will be preferably drawn from outside of Victoria and Tasmania.\nThe submitted software must be open-source and actively maintained at the time of entry.\nThe applicant must submit:\nBriefly discuss the importance of the software to statistical practice and discussing the advantages and disadvantages of the new contribution compared to existing implementations. Up to 400 words.\nAttach any evidence of potential impact and usefulness to the community.\nAttach any accepted paper(s) related to the software.\nA written tutorial demonstrating the use of the software product with a limit of 4000 words that can be used for the website.\nAn installable software product (e.g. package or web app) with its source code for use by the judging panel. 1. It should be accompanied by enough information to allow the judges to effectively use and evaluate the software (including its design considerations). This information can be provided in a variety of ways, including but not limited to: a user manual, a manuscript, a website, or an online help resource for the package. For team developers, a letter endorsing the major software development as student’s work.\nAll materials must be in English.\nAll materials must be submitted by completing the application Google form before the application deadline The decision of the judging panel is final.\nPotential evidences of impact or usefulness: Download metrics/citation of paper/Altmetric Uses of the software for non-academic audiences, e.g. work used in health sector for policy decisions.\n\n\n\n",
-      "last_modified": "2021-08-19T16:30:01+10:00"
-    },
-    {
-      "path": "dates.html",
-      "title": "Important dates",
-      "author": [],
-      "contents": "\nOpening of submissions: XXXXX\nClosing of submissions: XXXXX\nAnnouncement of the winner: SSA Vic March event in 2022\n\n\n\n",
-      "last_modified": "2021-08-19T16:30:02+10:00"
+      "last_modified": "2021-08-19T16:35:31+10:00"
     },
     {
       "path": "examples.html",
@@ -21,7 +14,7 @@
       "description": "This page shows example tutorials.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-08-19T16:30:02+10:00"
+      "last_modified": "2021-08-19T16:35:32+10:00"
     },
     {
       "path": "index.html",
@@ -29,7 +22,7 @@
       "description": "Open-Source Statistical Software Award by Statistical Society Australia, Victorian Branch\n",
       "author": [],
       "contents": "\n\nAbout the Award\nStatistical software tools make a considerable difference to the daily life of an analyst. This Award aims to\nencourage statistical software development by providing formal recognition of these developments\nshowcase the pool of statistical software developers in our local communities and\nraise awareness of the statistical tools developed by community members.\nThe use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address.\nPrizes\nAwardee will receive a cash prize of $1,000 and will present their work at an event planned in 2022.\nAll applications of sufficient quality will have their tutorial made available on a website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues.\n\n\n\n",
-      "last_modified": "2021-08-19T16:30:03+10:00"
+      "last_modified": "2021-08-19T16:35:32+10:00"
     },
     {
       "path": "showcase.html",
@@ -37,7 +30,14 @@
       "description": "This page shows the list tutorials of some submissions to the Di Cook Award. You can get to know some statistical software product that students in Victoria or Tasmania have developed.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-08-19T16:30:03+10:00"
+      "last_modified": "2021-08-19T16:35:33+10:00"
+    },
+    {
+      "path": "submission.html",
+      "title": "Submission",
+      "author": [],
+      "contents": "\nImportant Dates\nOpening of submissions: XXXXX\nClosing of submissions: XXXXX\nAnnouncement of the winner: SSA Vic March event in 2022\nApplication\n2021 Submission Google form is here\nJudges\n\n\n\n",
+      "last_modified": "2021-08-19T16:35:33+10:00"
     }
   ],
   "collections": ["examples/examples.json", "tutorials/tutorials.json"]
