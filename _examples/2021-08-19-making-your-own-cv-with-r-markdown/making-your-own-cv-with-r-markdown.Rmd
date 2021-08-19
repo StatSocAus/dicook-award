@@ -1,0 +1,19 @@
+---
+title: "Making your own CV with R Markdown"
+description: |
+  A short description of the post.
+author:
+  - name: Mitch O'Hara Wild
+date: 2021-08-19
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
