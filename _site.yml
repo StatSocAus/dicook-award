@@ -1,19 +1,19 @@
 name: "."
 title: "Di Cook Award"
-theme: assets/style.css
+theme: assets/ssa-theme.css
 description: |
   Di Cook Award
 output_dir: "docs"
 base_url: https://statsocaus.github.io/dicook-award/
 navbar:
   logo:
-    image: img/SSA_logo.png
+    image: img/SSA_Logotype_Navy.jpg
     href: https://www.statsoc.org.au/
   right:
     - text: "Home"
       href: index.html
-    - text: "Gallery"
-      href: gallery.html
+    - text: "Showcase"
+      href: showcase.html
     - text: "About"
       href: about.html
 output: distill::distill_article

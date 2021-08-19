@@ -3,7 +3,7 @@
   <channel>
     <title>Di Cook Award</title>
     <link>https://statsocaus.github.io/dicook-award/</link>
-    <atom:link href="https://statsocaus.github.io/dicook-award/gallery.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://statsocaus.github.io/dicook-award/showcase.xml" rel="self" type="application/rss+xml"/>
     <description>Di Cook Award
 </description>
     <generator>Distill</generator>
@@ -11,17 +11,17 @@
     <item>
       <title>Team Alpha</title>
       <dc:creator>Unknown</dc:creator>
-      <link>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-alpha</link>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</link>
       <description>A short description of the post.</description>
-      <guid>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-alpha</guid>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Team Beta</title>
       <dc:creator>Unknown</dc:creator>
-      <link>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-beta</link>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</link>
       <description>A short description of the post.</description>
-      <guid>https://statsocaus.github.io/dicook-award/posts/2021-08-15-team-beta</guid>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
     </item>
   </channel>
