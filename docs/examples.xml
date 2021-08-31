@@ -7,14 +7,19 @@
     <description>Di Cook Award
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 19 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Making your own CV with R Markdown</title>
-      <dc:creator>Mitch O'Hara Wild</dc:creator>
+      <dc:creator>Mitchell O'Hara-Wild</dc:creator>
+      <dc:creator/>
+      <dc:creator/>
+      <dc:creator/>
+      <dc:creator/>
       <link>https://statsocaus.github.io/dicook-award/examples/2021-08-19-making-your-own-cv-with-r-markdown</link>
-      <description>A short description of the post.</description>
+      <description>A brief introduction to the vitae package and tutorial for producing your own data driven CV.</description>
       <guid>https://statsocaus.github.io/dicook-award/examples/2021-08-19-making-your-own-cv-with-r-markdown</guid>
-      <pubDate>Thu, 19 Aug 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://statsocaus.github.io/dicook-award/examples/2021-08-19-making-your-own-cv-with-r-markdown/preview.png" medium="image" type="image/png" width="640" height="320"/>
     </item>
   </channel>
 </rss>
