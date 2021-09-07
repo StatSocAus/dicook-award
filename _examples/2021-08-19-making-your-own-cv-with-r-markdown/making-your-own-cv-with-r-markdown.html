@@ -1524,7 +1524,7 @@ surname: Curie
 position: Professor
 address: &quot;School of Physics &amp; Chemistry, École Normale Supérieure&quot;
 twitter: mariecurie
-date: &quot;August 2021&quot;
+date: &quot;September 2021&quot;
 output: vitae::awesomecv
 ---
 
@@ -1556,6 +1556,13 @@ tribble(
 </div>
 </div>
 <p><img src="awesomecv.png" /></p>
+<h3 id="making-the-cv-your-own">Making the CV your own</h3>
+<p>From here it’s time to modify the template to start creating your own CV. A good place to start is with the YAML front matter, where you can set your name, position and contact information.</p>
+<p>Being an R Markdown document, you can then start writing Markdown for the body of your CV. Perhaps start with a brief overview summary, or (as others have done) create a map that displays your relevant experiences.</p>
+<p>The most prominent element of a CV is the listed entries that describe your past employment, education, and other evidence of your expertise. These types of entries can be created with one of three <code>*_entries()</code> functions which style the list to suit the selected template. <code>data %&gt;% brief_entries(what, when, with)</code> creates a compact list, while <code>data %&gt;% detailed_entries(what, when, with, where, why)</code> creates a larger more detailed list.</p>
+<p>The <code>data</code> that is used to populate CV entries can come from any data source. It should be structured in a way where each row describes an entry, and the columns are passed into the appropriate field. Using data with this structure makes it easy to <code>filter()</code> for experiences relevant to your application. Many users (myself included) maintain a dataset for each type of entry that they like to include in the CV. While these datasets can grow over time as you add more experiences, your CV can be contain a reduced selection of this data to keep it concise and relevant.</p>
+<p>If you have published academic work, you might also like to use the <code>bibliography_entries()</code> to create a list of your publications. This function accepts common bibliography file formats including BibTeX and CSL-JSON, and then creates a dataset from it. This dataset can then be filtered and modified as needed, and these changes will be reflected in the resulting bibliography list.</p>
+<p>Finally, render your document and admire your newly created CV made with R Markdown! Looking for inspiration? Check out what others have done with their vitae CV: <a href="https://pkg.mitchelloharawild.com/vitae/#examples-of-using-vitae" class="uri">https://pkg.mitchelloharawild.com/vitae/#examples-of-using-vitae</a></p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
