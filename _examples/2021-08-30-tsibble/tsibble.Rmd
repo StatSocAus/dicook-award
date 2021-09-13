@@ -13,7 +13,7 @@ output:
     self_contained: false
 ---
 
-*Professor [Di Cook](http://dicook.org) is my PhD supervisor at Monash University, who is committed to open-source statistical software. Under her supervision, I have developed the [**tsibble**](http://tsibble.tidyverts.org/) package to facilitate temporal data analysis in a streamlined manner. This package receives 2019 John Chambers Statistical Software Award from the ASA.*
+*Professor [Di Cook](http://dicook.org) is my PhD supervisor at Monash University, who is committed to open-source statistical software. Under her supervision, I have developed the [**tsibble**](http://tsibble.tidyverts.org/) package to facilitate temporal data analysis in a streamlined manner. This package received the 2019 John Chambers Statistical Software Award from the American Statistical Association.*
 
 ## Introduction
 
