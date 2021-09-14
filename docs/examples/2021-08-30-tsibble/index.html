@@ -110,6 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="twitter:title" content="Di Cook Award: Tidy temporal data frames and pipelines"/>
 <meta property="twitter:description" content="An overview of tsibble&#39;s data structure and software design philosophy."/>
 <meta property="twitter:url" content="https://statsocaus.github.io/dicook-award/examples/2021-08-30-tsibble/"/>
+<meta property="twitter:site" content="@SsaVictoria"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
 <meta name="citation_title" content="Di Cook Award: Tidy temporal data frames and pipelines"/>
@@ -2129,6 +2130,43 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 </style>
 <style type="text/css">
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: italic;
+  src: url('fonts/GlacialIndifference-Italic.eot'); /* IE9 Compat Modes */
+  src: local('Glacial Indifference Italic'),
+       url('fonts/GlacialIndifference-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/GlacialIndifference-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/GlacialIndifference-Italic.woff') format('woff'), /* Modern Browsers */
+       url('fonts/GlacialIndifference-Italic.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/GlacialIndifference-Italic.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: bold;
+  src: url('fonts/GlacialIndifference-Bold.eot'); /* IE9 Compat Modes */
+  src: local('Glacial Indifference Bold'),
+       url('fonts/GlacialIndifference-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/GlacialIndifference-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/GlacialIndifference-Bold.woff') format('woff'), /* Modern Browsers */
+       url('fonts/GlacialIndifference-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/GlacialIndifference-Bold.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  font-style: normal;
+  src: url('fonts/GlacialIndifference-Regular.eot'); /* IE9 Compat Modes */
+  src: local('Glacial Indifference Regular'),
+       url('fonts/GlacialIndifference-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/GlacialIndifference-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/GlacialIndifference-Regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/GlacialIndifference-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/GlacialIndifference-Regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
 /* base variables */
 
 /* Edit the CSS properties in this file to create a custom
@@ -2157,10 +2195,10 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    sans-serif;
+  --heading-font:    'Glacial Indifference', sans-serif;
   --mono-font:       monospace;
-  --body-font:       sans-serif;
-  --navbar-font:     sans-serif;  /* websites + blogs only */
+  --body-font:       'Glacial Indifference', sans-serif;
+  --navbar-font:     'Glacial Indifference', sans-serif;  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -2394,11 +2432,13 @@ d-appendix d-footnote-list a.footnote-backlink {
 <img src="../../img/SSA_Logotype_Navy.jpg" alt="Logo"/>
 </a>
 <a href="../../index.html" class="title">Di Cook Award</a>
+<a href="https://github.com/StatSocAus/dicook-award">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="../../index.html">Home</a>
-<a href="../../submission.html">Submission</a>
 <a href="../../showcase.html">Showcase</a>
 <a href="../../examples.html">Examples</a>
 <a href="../../about.html">About</a>
@@ -2455,6 +2495,8 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
+  <h3 id="updates-and-corrections">Corrections</h3>
+  <p>If you see mistakes or want to suggest changes, please <a href="https://github.com/StatSocAus/dicook-award/issues/new">create an issue</a> on the source repository.</p>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
   <pre class="citation-appendix short">Wang (2021, Aug. 30). Di Cook Award: Tidy temporal data frames and pipelines. Retrieved from https://statsocaus.github.io/dicook-award/examples/2021-08-30-tsibble/</pre>
@@ -2468,7 +2510,11 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+  <p>© Copyright 2021 <a href="https://www.statsoc.org.au/Victoria">Statistical Society of Australia Victorian Branch</a></p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 

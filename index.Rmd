@@ -1,32 +1,63 @@
 ---
-title: "Di Cook Award"
+title: "SSA Vic Di Cook Award"
 description: |
   Open-Source Statistical Software Award by Statistical Society Australia, Victorian Branch
 site: distill::distill_website
+output: 
+  distill::distill_article:
+    includes:
+      before_body: assets/banner.html
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
 
-<img src="img/SSA_logo.png" height="500" width="150"/>
 
-# About the Award
 
-Statistical software tools make a considerable difference to the daily life of an analyst. This Award aims to 
+# <i class="fas fa-crosshairs"></i> Aim
+
+Statistical software tools make a considerable difference to the daily life of an analyst. 
+
+::: box
+
+This Award aims to 
 
 1. encourage statistical software development by providing formal recognition of these developments
 2. showcase the pool of statistical software developers in our local communities and
 3. raise awareness of the statistical tools developed by community members. 
 
+:::
+
 The use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. 
 
-# Prizes
+# <i class="fas fa-calendar-alt"></i> Important Dates
 
-Awardee will receive a cash prize of $1,000 and will present their work at an event planned in 2022.
+```{r date, echo = FALSE}
+tribble(~Date, ~What,
+        "Tue 21st Sep 2021", "Opening of the submission",
+        "Fri 26th Nov 2021", "Close of submission",
+        "March 2022", "Announcement of the award winner") %>% 
+  knitr::kable()
+```
+
+
+
+# <i class="fas fa-file-alt"></i> Submission
+
+See the criteria and structure [here]().
+
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>Application form</li>
+  <li><span class="fa-li"><i class="fas fa-gavel"></i></span>Assessor form</li>
+</ul>
+
+
+# <i class="fas fa-trophy"></i> Prize
+
+Awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2022.
 
 All applications of sufficient quality will have their tutorial made available on a website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
+
+

@@ -1,8 +1,12 @@
-name: "."
+name: "dicook-award"
 title: "Di Cook Award"
 theme: assets/ssa-theme.css
+repository_url: https://github.com/StatSocAus/dicook-award
+source_url: true
+twitter:
+  site: "@SsaVictoria"
 description: |
-  Di Cook Award
+  Di Cook Award aims to encourage statistical software development by providing formal recognition of these developments showcase the pool of statistical software developers in our local communities and raise awareness of the statistical tools developed by community members.
 output_dir: "docs"
 base_url: https://statsocaus.github.io/dicook-award/
 navbar:
@@ -12,12 +16,13 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Submission"
-      href: submission.html
     - text: "Showcase"
       href: showcase.html
     - text: "Examples"
       href: examples.html
     - text: "About"
       href: about.html
+  left:
+    - icon: fab fa-github
+      href: https://github.com/StatSocAus/dicook-award
 output: distill::distill_article
