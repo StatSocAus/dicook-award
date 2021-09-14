@@ -24,7 +24,8 @@ knitr::opts_chunk$set(echo = FALSE)
 1. The applicant must have begun the development while enrolled as a student. 
 1. The applicant does not need to be a SSA member to apply for this award. 
 1. Both individuals and teams are eligible to participate in this competition. 
-1. If the software development was a team effort, the major contribution should be that of the students. 1. The submitted software must be open-source and actively maintained at the time of entry.
+1. If the software development was a team effort, the major contribution should be that of the students. 
+1. The submitted software must be open-source and actively maintained at the time of entry.
 
 ## Criteria
 
