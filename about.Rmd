@@ -1,14 +1,11 @@
 ---
-title: "About this award"
+title: "About"
 description: ""
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-
-# <i class="fas fa-crosshairs"></i> Aim
 
 Statistical software tools make a considerable difference to the daily life of an analyst. This Award aims to 
 

@@ -12,6 +12,10 @@ author:
   - name: Professor Samuel Oak
     affiliation: Pallet Town
 date: 08-15-2021
+categories:
+  - "2021"
+  - dummy
+preview: https://upload.wikimedia.org/wikipedia/en/4/46/Pokemon_Go.png
 output:
   distill::distill_article:
     self_contained: false

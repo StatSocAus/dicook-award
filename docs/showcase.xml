@@ -13,6 +13,8 @@
       <dc:creator>Jane Smith</dc:creator>
       <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</link>
       <description>In this tutorial, I show how to use my web app to explore user-submitted electricity usage data.</description>
+      <category>2021</category>
+      <category>dummy</category>
       <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
     </item>
@@ -24,8 +26,11 @@
       <dc:creator>Professor Samuel Oak</dc:creator>
       <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</link>
       <description>Pokémon Go is a 2016 augmented reality mobile game. We collected some citizen reported data to find out where it is best to catch rare Pokemons.</description>
+      <category>2021</category>
+      <category>dummy</category>
       <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://upload.wikimedia.org/wikipedia/en/4/46/Pokemon_Go.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

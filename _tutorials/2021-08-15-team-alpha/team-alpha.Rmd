@@ -6,8 +6,9 @@ author:
   - name: Jane Smith 
     affiliation: Deakin University
 date: 08-15-2021
-tag:
-  - 2021
+categories:
+  - "2021"
+  - dummy
 output:
   distill::distill_article:
     self_contained: false

@@ -45,7 +45,7 @@ Above sbould submitted by completing the application form under [Forms](#forms) 
 
 1. Assessors will be drawn from expert statistical software developers who are not entrants in the current round. 
 1. Assessors will be preferably drawn from outside of Victoria and Tasmania. 
-1. Assessors give input by completing the assessor form under [Forms](#forms).
+1. Assessors give input by completing the assessor form similar to the one supplied under [Forms](#forms).
 1. A judging panel will collate assessors input to make the decision for the winner. 
 1. The decision of the judging panel is final.
 
@@ -56,7 +56,7 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 
 <ul class="fa-ul">
   <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://forms.gle/BeWmazpSnA9Qobxd8)</li>
-  <li><span class="fa-li"><i class="fas fa-gavel"></i></span>[Assessor form](https://forms.gle/yV5amA1RdiFtyLDa6)</li>
+  <li><span class="fa-li"><i class="fas fa-gavel"></i></span>[Assessor form](assessor-form.pdf)</li>
 </ul>
 
 

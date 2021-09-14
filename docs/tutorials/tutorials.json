@@ -10,10 +10,13 @@
       }
     ],
     "date": "2021-08-15",
-    "categories": [],
+    "categories": [
+      "2021",
+      "dummy"
+    ],
     "contents": "\nMy app allows for interactive exploration of the electricity usage. You can better understand how you are using your own electricity. Perhaps you will find out how to make your energy usage more efficient and help to become more environmentally friendly and save some money at the same time!\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-09-14T16:47:16+10:00",
+    "last_modified": "2021-09-14T21:00:21+10:00",
     "input_file": {}
   },
   {
@@ -39,10 +42,13 @@
       }
     ],
     "date": "2021-08-15",
-    "categories": [],
+    "categories": [
+      "2021",
+      "dummy"
+    ],
     "contents": "\nIn this R-package, we include the citizen reported data….\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-09-14T16:52:11+10:00",
+    "preview": "https://upload.wikimedia.org/wikipedia/en/4/46/Pokemon_Go.png",
+    "last_modified": "2021-09-14T21:01:06+10:00",
     "input_file": {}
   }
 ]
