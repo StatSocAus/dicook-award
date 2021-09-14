@@ -15,22 +15,49 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+# <i class="fas fa-bullhorn"></i> Call for Submission
 
-# <i class="fas fa-crosshairs"></i> Aim
+## Eligibility
 
-Statistical software tools make a considerable difference to the daily life of an analyst. 
+1. The Award is open to students, or students who graduated within one year of the application due date, of Victorian or Tasmanian tertiary institutes only. 
+1. The Award is not open to any work that has won another software competition or award, although the applicant may submit separate work that is significantly different to any previously winning work. 
+1. The applicant must have begun the development while enrolled as a student and must currently be a 1. student or within a year since graduation at the time of application. 
+1. The applicant does not need to be a SSA member to apply for this award. 
+1. Both individuals and teams are eligible to participate in this competition. 
+1. If the software development was a team effort, the major contribution should be that of the students. 1. The submitted software must be open-source and actively maintained at the time of entry.
 
-::: box
+## Criteria
 
-This Award aims to 
+The applicant must submit:
 
-1. encourage statistical software development by providing formal recognition of these developments
-2. showcase the pool of statistical software developers in our local communities and
-3. raise awareness of the statistical tools developed by community members. 
+* Briefly discuss the importance of the software to statistical practice and discuss the advantages and disadvantages of the new contribution compared to existing implementations. Up to 400 words.
+* Attach any evidence of potential impact and usefulness to the community. 
+* Attach any accepted paper(s) related to the software. 
+A written tutorial demonstrating the use of the software product with a limit of 4000 words that can be used for the website.
+* An installable software product (e.g. package or web app) with its source code for use by the judging panel. It should be accompanied by enough information to allow the judges to effectively use and evaluate the software (including its design considerations). This information can be provided in a variety of ways, including but not limited to: a user manual, a manuscript, a website, or an online help resource for the package.
+* For team developers, a letter endorsing the major software development as student’s work.
 
-:::
+Above sbould submitted by completing the application form under [Forms](#forms) before the application deadline. All submitted materials must be in English. 
 
-The use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. 
+
+## Judges & Assessors
+
+1. Assessors will be drawn from expert statistical software developers who are not entrants in the current round. 
+1. Assessors will be preferably drawn from outside of Victoria and Tasmania. 
+1. Assessors give input by completing the assessor form under [Forms](#forms).
+1. A judging panel will collate assessors input to make the decision for the winner. 
+1. The decision of the judging panel is final.
+
+If you would like to be an assessor, please email vic.branch@statsoc.org.au along with your software expertise. 
+
+
+## Forms
+
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://forms.gle/BeWmazpSnA9Qobxd8)</li>
+  <li><span class="fa-li"><i class="fas fa-gavel"></i></span>[Assessor form](https://forms.gle/yV5amA1RdiFtyLDa6)</li>
+</ul>
+
 
 # <i class="fas fa-calendar-alt"></i> Important Dates
 
@@ -42,16 +69,6 @@ tribble(~Date, ~What,
   knitr::kable()
 ```
 
-
-
-# <i class="fas fa-file-alt"></i> Submission
-
-See the criteria and structure [here]().
-
-<ul class="fa-ul">
-  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>Application form</li>
-  <li><span class="fa-li"><i class="fas fa-gavel"></i></span>Assessor form</li>
-</ul>
 
 
 # <i class="fas fa-trophy"></i> Prize
