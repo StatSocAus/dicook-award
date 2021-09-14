@@ -76,6 +76,6 @@ tribble(~Date, ~What,
 
 Awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2022.
 
-All applications of sufficient quality will have their tutorial made available on a website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
+All applications of sufficient quality will have their tutorial made available on the website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
 
 
