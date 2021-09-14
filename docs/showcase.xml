@@ -9,18 +9,21 @@
     <generator>Distill</generator>
     <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Team Alpha</title>
-      <dc:creator>Unknown</dc:creator>
+      <title>A web app to interactively explore the electricity usage</title>
+      <dc:creator>Jane Smith</dc:creator>
       <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</link>
-      <description>A short description of the post.</description>
+      <description>In this tutorial, I show how to use my web app to explore user-submitted electricity usage data.</description>
       <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Team Beta</title>
-      <dc:creator>Unknown</dc:creator>
+      <title>An R-package to study the Pokemon GO data</title>
+      <dc:creator>Ash Ketchum</dc:creator>
+      <dc:creator>Misty</dc:creator>
+      <dc:creator>Brock</dc:creator>
+      <dc:creator>Professor Samuel Oak</dc:creator>
       <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</link>
-      <description>A short description of the post.</description>
+      <description>Pokémon Go is a 2016 augmented reality mobile game. We collected some citizen reported data to find out where it is best to catch rare Pokemons.</description>
       <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</guid>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
     </item>

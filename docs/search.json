@@ -29,8 +29,8 @@
       "title": "Statistical Software Showcase",
       "description": "This page shows the list tutorials of some submissions to the Di Cook Award. You can get to know some statistical software product that students in Victoria or Tasmania have developed.\n",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-09-14T16:35:08+10:00"
+      "contents": "\n\nThis page will shows the list tutorials of some submissions to the Di Cook Award. You can get to know some statistical software product that students in Victoria or Tasmania have developed.\nThe current entries below are only dummies. See Examples for some tutorials by experienced developers.\n\n\n\n",
+      "last_modified": "2021-09-14T16:52:26+10:00"
     }
   ],
   "collections": ["examples/examples.json", "tutorials/tutorials.json"]

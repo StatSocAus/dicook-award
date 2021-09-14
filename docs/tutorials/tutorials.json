@@ -1,36 +1,48 @@
 [
   {
     "path": "tutorials/2021-08-15-team-alpha/",
-    "title": "Team Alpha",
-    "description": "A short description of the post.",
+    "title": "A web app to interactively explore the electricity usage",
+    "description": "In this tutorial, I show how to use my web app to explore user-submitted electricity usage data.",
     "author": [
       {
-        "name": "Unknown",
+        "name": "Jane Smith",
         "url": {}
       }
     ],
     "date": "2021-08-15",
     "categories": [],
-    "contents": "\nAlpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha alpha\n\n\n\n",
+    "contents": "\nMy app allows for interactive exploration of the electricity usage. You can better understand how you are using your own electricity. Perhaps you will find out how to make your energy usage more efficient and help to become more environmentally friendly and save some money at the same time!\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-08-19T15:53:49+10:00",
+    "last_modified": "2021-09-14T16:47:16+10:00",
     "input_file": {}
   },
   {
     "path": "tutorials/2021-08-15-team-beta/",
-    "title": "Team Beta",
-    "description": "A short description of the post.",
+    "title": "An R-package to study the Pokemon GO data",
+    "description": "Pokémon Go is a 2016 augmented reality mobile game. We collected some citizen reported data to find out where it is best to catch rare Pokemons.",
     "author": [
       {
-        "name": "Unknown",
+        "name": "Ash Ketchum",
+        "url": {}
+      },
+      {
+        "name": "Misty",
+        "url": {}
+      },
+      {
+        "name": "Brock",
+        "url": {}
+      },
+      {
+        "name": "Professor Samuel Oak",
         "url": {}
       }
     ],
     "date": "2021-08-15",
     "categories": [],
-    "contents": "\nBeta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta beta\n\n\n\n",
+    "contents": "\nIn this R-package, we include the citizen reported data….\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-08-19T15:53:49+10:00",
+    "last_modified": "2021-09-14T16:52:11+10:00",
     "input_file": {}
   }
 ]
