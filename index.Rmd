@@ -22,8 +22,8 @@ knitr::opts_chunk$set(echo = FALSE)
 1. The Award is open to students, or students who graduated within one year of the application due date, of Victorian or Tasmanian tertiary institutes only. 
 1. The Award is not open to any work that has won another software competition or award, although the applicant may submit separate work that is significantly different to any previously winning work. 
 1. The applicant must have begun the development while enrolled as a student. 
-1. The applicant does not need to be a SSA member to apply for this award. 
-1. Both individuals and teams are eligible to participate in this competition. 
+1. The applicant does not need to be an SSA member to apply for this award. 
+1. Individuals or teams are eligible to participate in this competition. 
 1. If the software development was a team effort, the major contribution should be that of the students. 
 1. The submitted software must be open-source and actively maintained at the time of entry.
 
@@ -31,11 +31,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The applicant must submit:
 
-* Briefly discuss the importance of the software to statistical practice and discuss the advantages and disadvantages of the new contribution compared to existing implementations. Up to 400 words.
+* A brief description of the importance of the software to statistical practice and discuss the advantages and disadvantages of the new contribution compared to existing implementations. Up to 400 words.
 * An installable software product (e.g. package or web app) with its source code for use by the judging panel. It should be accompanied by enough information to allow the judges to effectively use and evaluate the software (including its design considerations). This information can be provided in a variety of ways, including but not limited to: a user manual, a manuscript, a website, or an online help resource for the package.
-* For team developers, a letter endorsing the major software development as student’s work.
+* For team developers, a letter endorsing that the majority of the software development was done by the student(s).
 
-The applicant can also optionally submit:
+The applicant may also optionally submit:
 
 * Any evidence of potential impact and usefulness to the community. 
 * Any accepted paper(s) related to the software. 
@@ -43,7 +43,7 @@ The applicant can also optionally submit:
 
 
 
-Above should submitted by completing the application form under [Forms](#forms) before the application deadline. All submitted materials must be in English. 
+All of these items should be submitted by completing the application form under [Forms](#forms) before the application deadline. All submitted materials must be in English. 
 
 
 ## Judges & Assessors
@@ -51,7 +51,7 @@ Above should submitted by completing the application form under [Forms](#forms) 
 1. Assessors will be drawn from expert statistical software developers who are not entrants in the current round. 
 1. Assessors will be preferably drawn from outside of Victoria and Tasmania. 
 1. Assessors give input by completing the assessor form similar to the one supplied under [Forms](#forms).
-1. A judging panel will collate assessors input to make the decision for the winner. 
+1. A judging panel will collate assessors input to decide on the winner. 
 1. The decision of the judging panel is final.
 
 If you would like to be an assessor, please email vic.branch@statsoc.org.au along with your software expertise. 
@@ -69,8 +69,8 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 
 ```{r date, echo = FALSE}
 tribble(~Date, ~What,
-        "Tue 21st Sep 2021", "Opening of the submission",
-        "Fri 26th Nov 2021", "Close of submission",
+        "Tue 21st Sep 2021", "Opening of submissions",
+        "Fri 26th Nov 2021", "Close of submissions",
         "March 2022", "Announcement of the award winner") %>% 
   knitr::kable()
 ```
@@ -79,7 +79,7 @@ tribble(~Date, ~What,
 
 # <i class="fas fa-trophy"></i> Prize
 
-Awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2022.
+The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2022.
 
 All applications of sufficient quality will have their tutorial (if supplied) made available on the website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
 

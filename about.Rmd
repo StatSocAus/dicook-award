@@ -7,13 +7,13 @@ description: ""
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Statistical software tools make a considerable difference to the daily life of an analyst. This Award aims to 
+Statistical software tools make a considerable difference to the daily life of an analyst. This Award aims to: 
 
-1. encourage statistical software development by providing formal recognition of these developments
-2. showcase the pool of statistical software developers in our local communities and
-3. raise awareness of the statistical tools developed by community members. 
+1. Encourage statistical software development by providing formal recognition of these developments
+2. Showcase the pool of statistical software developers in our local communities and
+3. Raise awareness of the statistical tools developed by community members. 
 
-The use of open-source software (e.g. Python and R) are fast growing among users of programming languages, and are widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. 
+The use of open-source software (e.g. Python and R) is fast growing among users of programming languages, and such software is widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. 
 
 
 # <i class="fas fa-user"></i> Professor Dianne Cook
