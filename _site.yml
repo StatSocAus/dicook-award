@@ -11,7 +11,7 @@ output_dir: "docs"
 base_url: https://statsocaus.github.io/dicook-award/
 navbar:
   logo:
-    image: img/SSA_Logotype_Navy.jpg
+    image: img/SSA_Monogram_White.png
     href: https://www.statsoc.org.au/
   right:
     - text: "Home"
