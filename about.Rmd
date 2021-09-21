@@ -18,7 +18,8 @@ The use of open-source software (e.g. Python and R) is fast growing among users 
 
 # <i class="fas fa-user"></i> Professor Dianne Cook
 
-Professor Dianne Cook was born and raised in regional Australia. She completed her Bachelor of Science at the University of New England before heading to the USA to complete her PhD in Statistics at Rutgers University. Prof. Cook spent most of her academic career at the Department of Statistics at the Iowa State University before returning back to Australia in 2015 to join the Department of Econometrics and Business Statistics at Monash University. She is particularly well known for her research in visual inference and high-dimensional data visualisation and as an avid advocate of statistical software development. A number of students under her supervision have developed highly successful R packages, including Hadley Wickham who developed `ggplot2`, Yihui Xie who developed `knitr` and Earo Wang who developed `tsibble`.
+<img src="img/dicook-2019.png" style="border: 3px solid black;width:120px;float:left;margin-right: 10px;margin-bottom:10px;"> Professor Dianne Cook was born and raised in regional Australia. She completed her Bachelor of Science at the University of New England before heading to the USA to complete her PhD in Statistics at Rutgers University. Prof. Cook spent most of her academic career at the Department of Statistics at the Iowa State University before returning back to Australia in 2015 to join the Department of Econometrics and Business Statistics at Monash University. She is particularly well known for her research in visual inference and high-dimensional data visualisation and as an avid advocate of statistical software development. A number of students under her supervision have developed highly successful R packages, including Hadley Wickham who developed `ggplot2`, Yihui Xie who developed `knitr` and Earo Wang who developed `tsibble`.
+
 
 # <i class="fas fa-envelope"></i> Contact
 
