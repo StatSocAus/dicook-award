@@ -14,8 +14,13 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Submission has closed 
 
+There were a total of 11 applications for the 2021 Di Cook Award. You can find the tutorials for some of these software in the [showcase section](showcase.html). We will make a new call for submission in the third quarter of 2022 for the next Di Cook Award.
+
+<!---
 # <i class="fas fa-bullhorn"></i> Call for Submission
+--->
 
 ## Eligibility
 
@@ -73,7 +78,7 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 tribble(~Date, ~What,
         "Tue 21st Sep 2021", "Opening of submissions",
         "Fri <strike>26th Nov 2021</strike> 3rd Dec 2021", "Close of submissions (deadline extended by one week)",
-        "March 2022", "Announcement of the award winner") %>% 
+        "Wed 30th March 2022", "Announcement of the award winner") %>% 
   knitr::kable()
 ```
 

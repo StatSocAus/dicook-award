@@ -1,0 +1,17 @@
+---
+title: "`UDMCA` - A Shiny App for Single Species Univariate Changepoint Analysis"
+description: |
+  UDMCA is a Shiny web application that allows to visualize changepoints by using Bayesian changepoint techniques implemented in ‘changepoint’, ‘breakpoint’, ‘cumSeg’ and ‘bcp’. 
+author:
+  - name: Udani Wijewardhana
+    affiliation: Swinburne University of Technology
+date: 03-23-2022
+categories:
+  - "2021 entry"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+<iframe src="vignette - Udani Wijewardhana.pdf" height = "1000px" width="100%"></iframe>

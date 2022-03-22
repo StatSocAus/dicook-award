@@ -7,30 +7,53 @@
     <description>Di Cook Award aims to encourage statistical software development by providing formal recognition of these developments showcase the pool of statistical software developers in our local communities and raise awareness of the statistical tools developed by community members.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>A web app to interactively explore the electricity usage</title>
-      <dc:creator>Jane Smith</dc:creator>
-      <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</link>
-      <description>In this tutorial, I show how to use my web app to explore user-submitted electricity usage data.</description>
-      <category>2021</category>
-      <category>dummy</category>
-      <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-alpha</guid>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <title>`cassowaryr` R-package tutorial</title>
+      <dc:creator>Harriet Mason</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-harriet-mason</link>
+      <description>The cassowaryr package provides functions to compute scagnostics on pairs of numeric variables in a data set.</description>
+      <category>2021 entry</category>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-harriet-mason</guid>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-harriet-mason/cassowaryrtutorial_files/figure-html5/setup-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
-      <title>An R-package to study the Pokemon GO data</title>
-      <dc:creator>Ash Ketchum</dc:creator>
-      <dc:creator>Misty</dc:creator>
-      <dc:creator>Brock</dc:creator>
-      <dc:creator>Professor Samuel Oak</dc:creator>
-      <link>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</link>
-      <description>Pokémon Go is a 2016 augmented reality mobile game. We collected some citizen reported data to find out where it is best to catch rare Pokemons.</description>
-      <category>2021</category>
-      <category>dummy</category>
-      <guid>https://statsocaus.github.io/dicook-award/tutorials/2021-08-15-team-beta</guid>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://upload.wikimedia.org/wikipedia/en/4/46/Pokemon_Go.png" medium="image" type="image/png"/>
+      <title>Workflow for the `rater` R-package</title>
+      <dc:creator>Jeffrey Pullin</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-jeffrey-pullin</link>
+      <description>`rater` fits statistical models of repeated categorical rating data based on Dawid-Skene model (Dawid and Skene, 1979, doi:10.2307/2346806). Full Bayesian inference for these models is supported through the Stan modelling language. `rater` also allows the user to extract and plot key parameters of these models.</description>
+      <category>2021 entry</category>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-jeffrey-pullin</guid>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-jeffrey-pullin/workflow_files/figure-html5/plot-pi-1.png" medium="image" type="image/png" width="1152" height="768"/>
+    </item>
+    <item>
+      <title>`ebviz`</title>
+      <dc:creator>Jimmy Effendy</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-jimmy-effendy</link>
+      <description>The goal of `ebviz` is to assist authors of a Multiple Regression Poststratification edited book in creating visualizations that are readable, cohesive, and accessible.</description>
+      <category>2021 entry</category>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-jimmy-effendy</guid>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>`UDMCA` - A Shiny App for Single Species Univariate Changepoint Analysis</title>
+      <dc:creator>Udani Wijewardhana</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-udani-wijewardhana</link>
+      <description>UDMCA is a Shiny web application that allows to visualize changepoints by using Bayesian changepoint techniques implemented in ‘changepoint’, ‘breakpoint’, ‘cumSeg’ and ‘bcp’.</description>
+      <category>2021 entry</category>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-udani-wijewardhana</guid>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>`PLSDAbatch` R-package </title>
+      <dc:creator>Yiwen (Eva) Wang</dc:creator>
+      <link>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-yiwen-eva-wang</link>
+      <description>The `PLSDAbatch` package includes both the new method for batch effect correction, along with a comprehensive standardised framework for batch effect management including the application of existing methods ranging from accounting for batch effects (e.g. with linear models) to correcting for batch effects (e.g removeBatchEffect from the *limma* package, and ComBat from *sva*) and a proposed method for microbiome data.</description>
+      <category>2021 entry</category>
+      <guid>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-yiwen-eva-wang</guid>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

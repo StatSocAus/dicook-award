@@ -1,0 +1,21 @@
+---
+title: "`PLSDAbatch` R-package "
+description: |
+  The `PLSDAbatch` package includes both a new method for batch effect correction, along with a comprehensive standardised framework for batch effect management including the application of existing methods ranging from accounting for batch effects (e.g. with linear models) to correcting for batch effects (e.g removeBatchEffect from the *limma* package, and ComBat from *sva*) and a proposed method for microbiome data.
+author:
+  - name: Yiwen (Eva) Wang
+    affiliation: Melbourne Integrative Genomics, School of Mathematics and Statistics, The University of Melbourne, Australia
+    email: yiwenw5@student.unimelb.edu.au
+date: 03-23-2022
+categories:
+  - "2021 entry"
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: [reference.bib]
+biblio-style: apalike
+link-citations: true
+---
+
+
+<iframe src="case_studies.html" width="100%" height = "800px"></iframe>

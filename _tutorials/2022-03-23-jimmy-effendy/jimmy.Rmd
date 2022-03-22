@@ -1,0 +1,17 @@
+---
+title: "`ebviz`"
+description: |
+  The goal of `ebviz` is to assist authors of a Multiple Regression Poststratification edited book in creating visualizations that are readable, cohesive, and accessible.
+author:
+  - name: Jimmy Effendy
+    affiliation: Monash University
+date: 03-23-2022
+categories:
+  - "2021 entry"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+<iframe src="readme - Jimmy Effendy.html" height = "1000px" width="100%"></iframe>
