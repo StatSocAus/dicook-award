@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Submission has closed 
 
-There were a total of 11 applications for the 2021 Di Cook Award. You can find the tutorials for some of these software in the [showcase section](showcase.html). We will make a new call for submission in the third quarter of 2022 for the next Di Cook Award.
+There were a total of 11 applications for the 2021 Di Cook Award. You can find the tutorials for some of these software in the [showcase section](showcase.html). We will make a new call for submission in the last quarter of 2022 for the next Di Cook Award.
 
 <!---
 # <i class="fas fa-bullhorn"></i> Call for Submission
