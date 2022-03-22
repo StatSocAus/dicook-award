@@ -1,5 +1,5 @@
 ---
-title: "`UDMCA` - A Shiny App for Single Species Univariate Changepoint Analysis"
+title: "UDMCA - A Shiny App for Single Species Univariate Changepoint Analysis"
 description: |
   UDMCA is a Shiny web application that allows to visualize changepoints by using Bayesian changepoint techniques implemented in ‘changepoint’, ‘breakpoint’, ‘cumSeg’ and ‘bcp’. 
 author:

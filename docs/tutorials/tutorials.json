@@ -1,7 +1,7 @@
 [
   {
     "path": "tutorials/2022-03-23-harriet-mason/",
-    "title": "`cassowaryr` R-package tutorial",
+    "title": "cassowaryr R-package tutorial",
     "description": "The cassowaryr package provides functions to compute scagnostics on pairs of numeric variables in a data set.",
     "author": [
       {
@@ -15,14 +15,14 @@
     ],
     "contents": "\nAbout\nThe cassowaryr package provides functions to compute\nscagnostics on pairs of numeric variables in a data set.\nThe term scagnostics refers to scatter plot\ndiagnostics, originally described by John and Paul Tukey. This is a\ncollection of techniques for automatically extracting interesting visual\nfeatures from pairs of variables. This package is an implementation of\ngraph theoretic scagnostics developed by Wilkinson, Anand, and Grossman\n(2005) in pure R and is designed to be easily integrated into a tidy\ndata workflow.\nThe package’s primary use is as a step in exploratory data analysis,\nto give users an idea of the shape of their data and identify\ninteresting pairwise relationships.\nInstallation\nThe package can be installed from CRAN using\n\ninstall.packages(\"cassowaryr\")\n\nand from GitHub using\n\nremotes::install_github(\"numbats/cassowaryr\")\n\nto install the development version.\nExamples\nCalculating the scagnostics\nHere we will go through an example on the datasaurus dozen data\n(which comes loaded with the package). This data has several pairwise\nplots variables with the same mean, variance and correlation but\nstrikingly different visual features. We will use a handful of these\npairwise plots to show the best way to utilise the\ncassowaryr package. Here is a plot of the selected\ndatasaurus dozen plots:\n\n\nlibrary(cassowaryr)\nlibrary(ggplot2)\nlibrary(dplyr)\n\n# pick examples\nexampledata <- datasaurus_dozen %>%\n  filter(dataset %in% c(\"slant_up\", \"circle\", \"dots\", \"away\"))\n\n\n#plot them\nexampledata %>%\n  ggplot(aes(x=x,y=y, colour=dataset))+\n  geom_point() +\n  facet_wrap(\"dataset\") +\n  theme_minimal() +\n  theme(legend.position = \"none\", aspect.ratio=1)\n\n\n\n\nFrom a data frame, there are several ways to calculate scagnostics.\nIf we simply have two variables we wish to calculate several scagnostics\non, we use the calc_scags function and pass through the two\nvariables as vectors.\n\n\ncalc_scags(exampledata$x, exampledata$y, scags=c(\"clumpy2\", \"convex\", \"striated2\", \"dcor\")) %>%\n  knitr::kable(digits=4, align=\"c\")\n\n\nstriated2\nclumpy2\nconvex\ndcor\n0.1853\n0\n0.7955\n0.136\n\nIf instead we have a data frame with two variables and a grouping\nvariable (a long form of a data set) then we can use the\ncalc_scags function to get the scagnostics for each\ngroup.\n\n\nlongscags <- exampledata %>%\n  group_by(dataset) %>%\n  summarise(calc_scags(x, y, scags=c(\"clumpy2\", \"convex\", \"striated2\", \"dcor\")))\nlongscags %>%\n  knitr::kable(digits=4, align=\"c\")\n\n\ndataset\nstriated2\nclumpy2\nconvex\ndcor\naway\n0.0956\n0.0000\n0.7950\n0.1326\ncircle\n0.5255\n0.0000\n0.0117\n0.2292\ndots\n0.1654\n0.9932\n0.0009\n0.1266\nslant_up\n0.0942\n0.8623\n0.9145\n0.1932\n\nFinally, if we have a wide data set consisting of only numerical\nvariables, we can use the calc_scags_wide to find the\nscagnostics on every pairwise combination of variables.\n\n\nexampledata_wide <- datasaurus_dozen_wide[,c(1:2,5:6,9:10,17:18)]\nwidescags<- calc_scags_wide(exampledata_wide, scags=c(\"clumpy2\", \"convex\", \"striated2\", \"dcor\"))\nhead(widescags, 4) %>%\n  knitr::kable(digits=4, align=\"c\")\n\n\nVar1\nVar2\nstriated2\nclumpy2\nconvex\ndcor\naway_y\naway_x\n0.0956\n0.0000\n0.7950\n0.1326\ncircle_x\naway_x\n0.1111\n0.5222\n0.8561\n0.3839\ncircle_x\naway_y\n0.0857\n0.2211\n0.8642\n0.1142\ncircle_y\naway_x\n0.1103\n0.8403\n0.7089\n0.0818\n\nUsing the scagnostics\nIf the resulting scagnostic data set is small enough, we can find\ninteresting scatter plots by simply looking at the table, however this\nis often not the case. If we want to find pairwise plots that are\ndifferent to the others, we can find outliers on combinations of the\nscagnostics using an interactive scatter plot matrix (SPLOM). The code\n(but not the output) on how to do this is shown below:\n\n\nlibrary(GGally)\nlibrary(plotly)\n\nsplom_data <- widescags %>%\n  ungroup() %>%\n  mutate(lab = paste0(Var1, \" , \", Var2)) %>%\n  select(-c(Var1, Var2))\n\np <- ggpairs(splom_data, columns=c(1:4), aes(label=lab)) +\n  theme_minimal()\nggplotly(p) \n\n\n\nThere are also a handful of functions that can summarise the\nscagnostic data. Using top_pairs allows us to find the top\nscagnostic for each pair of variables, while top_scags\nfinds the top pair of variables for each scagnostic. Their usage is\nidentical and shown below:\n\n\ntop_scags(widescags) %>%\n  knitr::kable(digits=4, align=\"c\")\n\n\nVar1\nVar2\nscag\nvalue\ndots_y\ncircle_y\nclumpy2\n0.9948\nslant_up_y\nslant_up_x\nconvex\n0.9145\nslant_up_y\ndots_y\ndcor\n0.9167\ncircle_y\ncircle_x\nstriated2\n0.5255\n\nDiagnosing strange results\nOccasionally we will get unexpected results for a scagnostic. To\nallow users to diagnose their own scagnostics, the package has several\ndraw functions that will plot the graph based objects that were used to\nconstruct the measures. There is a draw function for the alpha hull,\nconvex hull and MST. Below is an example of the MST function\ndraw_mst.\n\n\ndrawexample <- exampledata %>%\n  filter(dataset== \"dots\")\n\ndraw_mst(drawexample$x, drawexample$y, alpha=0.2) + theme_minimal()\n\n\n\n\n\n\n\n",
     "preview": "tutorials/2022-03-23-harriet-mason/cassowaryrtutorial_files/figure-html5/setup-1.png",
-    "last_modified": "2022-03-23T09:51:04+11:00",
-    "input_file": {},
+    "last_modified": "2022-03-23T10:12:43+11:00",
+    "input_file": "cassowaryrtutorial.knit.md",
     "preview_width": 1248,
     "preview_height": 768
   },
   {
     "path": "tutorials/2022-03-23-jeffrey-pullin/",
-    "title": "Workflow for the `rater` R-package",
+    "title": "Workflow for the rater R-package",
     "description": "`rater` fits statistical models of repeated categorical rating data based on Dawid-Skene model (Dawid and Skene, 1979, doi:10.2307/2346806). Full Bayesian inference for these models is supported through the Stan modelling language. `rater` also allows the user to extract and plot key parameters of these models.",
     "author": [
       {
@@ -34,16 +34,16 @@
     "categories": [
       "2021 entry"
     ],
-    "contents": "\nWhat is rater?\nThe {rater} package is designed to allow easy fitting and analysis of\nBayesian models of categorical data annotation using Stan. Here we demonstrate the basic\nworkflow for using the package.\nData\nWe will use the anesthesia data set taken from the paper\nMaximum Likelihood Estimation of Observer Error-Rates Using the EM\nAlgorithm by A. P. Dawid and A. M. Skene, the paper which\nintroduced the original Dawid-Skene model the type of models used This\ndataset is included in rater. We can prepare the\npackage and data with:\n\n\n# Load the rater package.\nlibrary(rater)\n\n# Access the 'anesthesia' data set.\ndata(\"anesthesia\")\n\n\n\nThe data comes in the form of a data.frame with three\ncolumns item, rater and rating.\nIn the nomenclature of the package we would describe this as\nlong data. Long data is the standard data format for\npassing data to inference functions in {rater}. The item\ncolumn is the index of each item, the rater column is the\nindex of the rater and rating is the actual rating. For\nexample the twentieth row of the dataset:\n\n\nanesthesia[20, ]\n\n\n   item rater rating\n20    3     4      2\n\nmeans that item 3 was rated as being in category 2 by the fourth\nrater. {rater} also allows the use of grouped data for fitting\nsome of the models but that feature is not covered in this vignette.\nInference\nThe core function of the {rater} package is the rater()\nfunction which fits a specified categorical rating to model to given\ndata. This function has two arguments: data, data in an\nappropriate format and model, a character string or\nfunctions specifying the model you would like to fit. By default\nrater() will fit the model using MCMC (specifically NUTS)\nprovided by Stan. To fit the basic Dawid-Skene model1 to\nthe anesthesia data we can run.\n\n\nfit <- rater(anesthesia, \"dawid_skene\", chains = 1, verbose = FALSE)\n\n\n\nNote that here we have set verbose = FALSE to suppress\nthe normal Stan sampling output. We have also specified that we should\nuse only 1 chain, simply to speed up the creation of the vignette. Other\nfitting parameters can be passed directly to the underlying Stan\nfunctions through the ... in rater().\nWe can also compute MAP estimates by specifying\nmethod = \"optim\"in rater():\n\n\noptim_fit <- rater(anesthesia, \"dawid_skene\", method = \"optim\")\n\n\n\nPlotting\nHaving fit the Dawid and Skene model to the data we can now plot\nparameter estimates from the model.\nTo plot the population prevalence estimates (the parameter \\(\\pi\\) in the model) we run:\n\n\nplot(fit, pars = \"pi\")\n\n\n\n\nTo plot the rater’s error’s matrices of the (the parameter \\(\\theta\\) in the model) we run:\n\n\nplot(fit, pars = \"theta\")\n\n\n\n\nTo plot the latent class estimates we run:\n\n\nplot(fit, pars = \"latent_class\")\n\n\n\n\nPoint estimates\nIn additions we can extract point estimates for all the parameters.\nThese can be extracted using the point_estimates()\nfunction. Different parameters can be extracted using the\npars argument i.e.\n\n\n# Extract all parameters.\nall_parameters <- point_estimate(fit)\n\n# Extract only the 'pi' parameter. \npoint_estimate(fit, pars = \"pi\")\n\n\n$pi\n[1] 0.37255709 0.40895143 0.14381965 0.07467183\n\nNote that the interpretation of the point estimates returned will\ndiffer depending on whether the model has been fit using MCMC or\noptimisation.\nOther functions\n{rater} also supports a variety of other functions to extract useful\nquantities from fit objects which are listed below:\nposterior_samples()\nposterior_interval()\nclass_probabilities()\nmcmc_diagnostics()\nHopefully the uses of these functions are fairly self\nexplanatory.\n{rater} also supports the ‘class\nconditional’ and ‘hierarchical’ Dawid-Skene models as well as setting\n(some of) the prior parameters in all three models.\n\n↩︎\n",
+    "contents": "\nWhat is rater?\nThe {rater} package is designed to allow easy fitting and analysis of\nBayesian models of categorical data annotation using Stan. Here we demonstrate the basic\nworkflow for using the package.\nData\nWe will use the anesthesia data set taken from the paper\nMaximum Likelihood Estimation of Observer Error-Rates Using the EM\nAlgorithm by A. P. Dawid and A. M. Skene, the paper which\nintroduced the original Dawid-Skene model the type of models used This\ndataset is included in rater. We can prepare the\npackage and data with:\n\n\n# Load the rater package.\nlibrary(rater)\n\n# Access the 'anesthesia' data set.\ndata(\"anesthesia\")\n\n\n\nThe data comes in the form of a data.frame with three\ncolumns item, rater and rating.\nIn the nomenclature of the package we would describe this as\nlong data. Long data is the standard data format for\npassing data to inference functions in {rater}. The item\ncolumn is the index of each item, the rater column is the\nindex of the rater and rating is the actual rating. For\nexample the twentieth row of the dataset:\n\n\nanesthesia[20, ]\n\n\n   item rater rating\n20    3     4      2\n\nmeans that item 3 was rated as being in category 2 by the fourth\nrater. {rater} also allows the use of grouped data for fitting\nsome of the models but that feature is not covered in this vignette.\nInference\nThe core function of the {rater} package is the rater()\nfunction which fits a specified categorical rating to model to given\ndata. This function has two arguments: data, data in an\nappropriate format and model, a character string or\nfunctions specifying the model you would like to fit. By default\nrater() will fit the model using MCMC (specifically NUTS)\nprovided by Stan. To fit the basic Dawid-Skene model1 to\nthe anesthesia data we can run.\n\n\nfit <- rater(anesthesia, \"dawid_skene\", chains = 1, verbose = FALSE)\n\n\n\nNote that here we have set verbose = FALSE to suppress\nthe normal Stan sampling output. We have also specified that we should\nuse only 1 chain, simply to speed up the creation of the vignette. Other\nfitting parameters can be passed directly to the underlying Stan\nfunctions through the ... in rater().\nWe can also compute MAP estimates by specifying\nmethod = \"optim\"in rater():\n\n\noptim_fit <- rater(anesthesia, \"dawid_skene\", method = \"optim\")\n\n\n\nPlotting\nHaving fit the Dawid and Skene model to the data we can now plot\nparameter estimates from the model.\nTo plot the population prevalence estimates (the parameter \\(\\pi\\) in the model) we run:\n\n\nplot(fit, pars = \"pi\")\n\n\n\n\nTo plot the rater’s error’s matrices of the (the parameter \\(\\theta\\) in the model) we run:\n\n\nplot(fit, pars = \"theta\")\n\n\n\n\nTo plot the latent class estimates we run:\n\n\nplot(fit, pars = \"latent_class\")\n\n\n\n\nPoint estimates\nIn additions we can extract point estimates for all the parameters.\nThese can be extracted using the point_estimates()\nfunction. Different parameters can be extracted using the\npars argument i.e.\n\n\n# Extract all parameters.\nall_parameters <- point_estimate(fit)\n\n# Extract only the 'pi' parameter. \npoint_estimate(fit, pars = \"pi\")\n\n\n$pi\n[1] 0.37789031 0.40941783 0.14018454 0.07250731\n\nNote that the interpretation of the point estimates returned will\ndiffer depending on whether the model has been fit using MCMC or\noptimisation.\nOther functions\n{rater} also supports a variety of other functions to extract useful\nquantities from fit objects which are listed below:\nposterior_samples()\nposterior_interval()\nclass_probabilities()\nmcmc_diagnostics()\nHopefully the uses of these functions are fairly self\nexplanatory.\n{rater} also supports the ‘class\nconditional’ and ‘hierarchical’ Dawid-Skene models as well as setting\n(some of) the prior parameters in all three models.\n\n↩︎\n",
     "preview": "tutorials/2022-03-23-jeffrey-pullin/workflow_files/figure-html5/plot-pi-1.png",
-    "last_modified": "2022-03-23T09:52:25+11:00",
-    "input_file": {},
+    "last_modified": "2022-03-23T10:13:05+11:00",
+    "input_file": "workflow.knit.md",
     "preview_width": 1152,
     "preview_height": 768
   },
   {
     "path": "tutorials/2022-03-23-jimmy-effendy/",
-    "title": "`ebviz`",
+    "title": "ebviz",
     "description": "The goal of `ebviz` is to assist authors of a Multiple Regression Poststratification edited book in creating visualizations that are readable, cohesive, and accessible.",
     "author": [
       {
@@ -57,12 +57,12 @@
     ],
     "contents": "\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-23T09:46:04+11:00",
-    "input_file": {}
+    "last_modified": "2022-03-23T10:13:19+11:00",
+    "input_file": "jimmy.knit.md"
   },
   {
     "path": "tutorials/2022-03-23-udani-wijewardhana/",
-    "title": "`UDMCA` - A Shiny App for Single Species Univariate Changepoint Analysis",
+    "title": "UDMCA - A Shiny App for Single Species Univariate Changepoint Analysis",
     "description": "UDMCA is a Shiny web application that allows to visualize changepoints by using Bayesian changepoint techniques implemented in ‘changepoint’, ‘breakpoint’, ‘cumSeg’ and ‘bcp’.",
     "author": [
       {
@@ -76,13 +76,13 @@
     ],
     "contents": "\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-23T10:04:30+11:00",
-    "input_file": {}
+    "last_modified": "2022-03-23T10:13:31+11:00",
+    "input_file": "udani.knit.md"
   },
   {
     "path": "tutorials/2022-03-23-yiwen-eva-wang/",
-    "title": "`PLSDAbatch` R-package ",
-    "description": "The `PLSDAbatch` package includes both the new method for batch effect correction, along with a comprehensive standardised framework for batch effect management including the application of existing methods ranging from accounting for batch effects (e.g. with linear models) to correcting for batch effects (e.g removeBatchEffect from the *limma* package, and ComBat from *sva*) and a proposed method for microbiome data.",
+    "title": "PLSDAbatch R-package ",
+    "description": "The `PLSDAbatch` package includes both a new method for batch effect correction, along with a comprehensive standardised framework for batch effect management including the application of existing methods ranging from accounting for batch effects (e.g. with linear models) to correcting for batch effects (e.g removeBatchEffect from the *limma* package, and ComBat from *sva*) and a proposed method for microbiome data.",
     "author": [
       {
         "name": "Yiwen (Eva) Wang",
@@ -95,7 +95,7 @@
     ],
     "contents": "\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-03-23T09:59:18+11:00",
-    "input_file": {}
+    "last_modified": "2022-03-23T10:13:47+11:00",
+    "input_file": "yiwen.knit.md"
   }
 ]

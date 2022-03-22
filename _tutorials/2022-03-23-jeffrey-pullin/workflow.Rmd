@@ -1,5 +1,5 @@
 ---
-title: "Workflow for the `rater` R-package"
+title: "Workflow for the rater R-package"
 description: |
   `rater` fits statistical models of repeated categorical rating data based on Dawid-Skene model (Dawid and Skene, 1979, doi:10.2307/2346806). Full Bayesian inference for these models is supported through the Stan modelling language. `rater` also allows the user to extract and plot key parameters of these models.
 author:

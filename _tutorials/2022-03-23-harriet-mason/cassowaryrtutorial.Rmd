@@ -1,5 +1,5 @@
 ---
-title: "`cassowaryr` R-package tutorial"
+title: "cassowaryr R-package tutorial"
 description: |
   The cassowaryr package provides functions to compute scagnostics on pairs of numeric variables in a data set.
 author:
