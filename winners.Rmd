@@ -1,0 +1,18 @@
+---
+title: "Winners"
+description: |
+  The list of past winners.
+---
+
+
+## 2021 
+
+
+There were a total of 11 applications for the 2021 Di Cook Award. You can find the tutorials for some of these software in the [showcase section](showcase.html). 
+
+The winner was **Patrick Li** on his software [**spotoroo**](https://github.com/TengMCing/spotoroo).
+
+The honourable mentions were:
+
+* **Sayani Gupta** on her software [**gravitas**](https://github.com/Sayani07/gravitas) and 
+* **Jeffrey Pulin** on his software [**rater**](https://github.com/jeffreypullin/rater).

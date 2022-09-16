@@ -14,13 +14,9 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Submission has closed 
 
-There were a total of 11 applications for the 2021 Di Cook Award. You can find the tutorials for some of these software in the [showcase section](showcase.html). We will make a new call for submission in the last quarter of 2022 for the next Di Cook Award.
 
-<!---
 # <i class="fas fa-bullhorn"></i> Call for Submission
---->
 
 ## Eligibility
 
@@ -67,7 +63,7 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 ## Forms
 
 <ul class="fa-ul">
-  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://forms.gle/BeWmazpSnA9Qobxd8)</li>
+  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://docs.google.com/forms/d/e/1FAIpQLSfBkq7OjYWGEHxtwoTqP_yIMMro0gPokW3k6hp52f2a9NYEmA/viewform?usp=sf_link)</li>
   <li><span class="fa-li"><i class="fas fa-gavel"></i></span>[Assessor form](assessor-form.pdf)</li>
 </ul>
 
@@ -76,9 +72,9 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 
 ```{r date, echo = FALSE}
 tribble(~Date, ~What,
-        "Tue 21st Sep 2021", "Opening of submissions",
-        "Fri <strike>26th Nov 2021</strike> 3rd Dec 2021", "Close of submissions (deadline extended by one week)",
-        "Wed 30th March 2022", "Announcement of the award winner") %>% 
+        "Tue 20th Sep 2022", "Opening of submissions",
+        "Fri 25th Nov 2022", "Close of submissions",
+        "March meeting", "Announcement of the award winner") %>% 
   knitr::kable()
 ```
 
@@ -86,7 +82,7 @@ tribble(~Date, ~What,
 
 # <i class="fas fa-trophy"></i> Prize
 
-The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2022.
+The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2023.
 
 All applications of sufficient quality will have their tutorial (if supplied) made available on the website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
 

@@ -16,6 +16,8 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Past Winners"
+      href: winners.html
     - text: "Showcase"
       href: showcase.html
     - text: "Examples"

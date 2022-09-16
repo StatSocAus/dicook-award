@@ -53,7 +53,7 @@
       <description>The `PLSDAbatch` package includes both a new method for batch effect correction, along with a comprehensive standardised framework for batch effect management including the application of existing methods ranging from accounting for batch effects (e.g. with linear models) to correcting for batch effects (e.g removeBatchEffect from the *limma* package, and ComBat from *sva*) and a proposed method for microbiome data.</description>
       <category>2021 entry</category>
       <guid>https://statsocaus.github.io/dicook-award/tutorials/2022-03-23-yiwen-eva-wang</guid>
-      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
