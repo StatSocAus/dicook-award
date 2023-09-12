@@ -5,6 +5,10 @@ description: |
 ---
 
 
+## 2022
+
+The winner was **Floyd Everest** on his software [**elections.dtree**](https://github.com/fleverest/elections.dtree/).
+
 ## 2021 
 
 
