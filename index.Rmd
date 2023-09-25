@@ -64,7 +64,7 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 ## Forms
 
 <ul class="fa-ul">
-  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://forms.gle/x7qePTBxye4XwxmB7)</li>
+  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form]()</li>
   <li><span class="fa-li"><i class="fas fa-gavel"></i></span>[Assessor form](assessor-form.pdf)</li>
 </ul>
 
