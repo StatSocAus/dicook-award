@@ -1,7 +1,7 @@
 ---
-title: "SSA Vic Di Cook Award"
+title: "SSA Vic & Tas Di Cook Award"
 description: |
-  Open-Source Statistical Software Award by Statistical Society Australia, Victorian Branch
+  Open-Source Statistical Software Award by Statistical Society Australia, Victorian & Tasmanian Branch
 site: distill::distill_website
 output: 
   distill::distill_article:
@@ -15,21 +15,13 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# Submissions to open soon!
-
-Submissions will close late November with the winner announced in March.
-
-More details will follow soon.
-
-
-<!---
 
 
 # <i class="fas fa-bullhorn"></i> Call for Submission
 
 ## Eligibility
 
-1. The Award is open to students, or students who graduated within one year of the application due date, of Victorian or Tasmanian tertiary institutes only. 
+1. The Award is open to students, or students who graduated within one year of the application due date, of Victorian or Tasmanian educational institutes only. 
 1. The Award is not open to any work that has won another software competition or award, although the applicant may submit separate work that is significantly different to any previously winning work. 
 1. The applicant must have begun the development while enrolled as a student. 
 1. The applicant does not need to be an SSA member to apply for this award. 
@@ -61,7 +53,7 @@ All of these items should be submitted by completing the application form under 
 1. Assessors will be drawn from expert statistical software developers who are not entrants in the current round. 
 1. Assessors will be preferably drawn from outside of Victoria and Tasmania. 
 1. Assessors give input by completing the assessor form similar to the one supplied under [Forms](#forms).
-1. The judging panel will comprise committee members of the newly formed [Statistical Computing and Visualisation Section of the Statistical Society of Australia](https://www.statsoc.org.au/Statistical-Computing-and-Visualisation-Section).
+1. The judging panel will comprise committee members of the [Statistical Computing and Visualisation Section of the Statistical Society of Australia](https://www.statsoc.org.au/Statistical-Computing-and-Visualisation-Section) or other members selected by the SSA Vic & Tas council.
 1. Assessors for this competition will be decided after close of submission upon consultation with the judging panel.
 1. A judging panel will collate assessors input to decide on the winner. 
 1. The decision of the judging panel is final.
@@ -72,7 +64,7 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 ## Forms
 
 <ul class="fa-ul">
-  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://docs.google.com/forms/d/e/1FAIpQLSfBkq7OjYWGEHxtwoTqP_yIMMro0gPokW3k6hp52f2a9NYEmA/viewform?usp=sf_link)</li>
+  <li><span class="fa-li"><i class="fas fa-file-code"></i></span>[Application form](https://forms.gle/x7qePTBxye4XwxmB7)</li>
   <li><span class="fa-li"><i class="fas fa-gavel"></i></span>[Assessor form](assessor-form.pdf)</li>
 </ul>
 
@@ -81,9 +73,9 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 
 ```{r date, echo = FALSE}
 tribble(~Date, ~What,
-        "Tue 20th Sep 2022", "Opening of submissions",
-        "<strike>Fri 25th Nov 2022</strike> Fri 16th Dec 2022", "Close of submissions",
-        "March meeting", "Announcement of the award winner") %>% 
+        "Mon 2nd Oct 2023", "Opening of submissions",
+        "Fri 24th Nov 2023", "Close of submissions",
+        "March 2024 meeting", "Announcement of the award winner") %>% 
   knitr::kable()
 ```
 
@@ -91,8 +83,8 @@ tribble(~Date, ~What,
 
 # <i class="fas fa-trophy"></i> Prize
 
-The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2023.
+The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2024.
 
 All applications of sufficient quality will have their tutorial (if supplied) made available on the website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
 
---->
+
