@@ -74,7 +74,7 @@ If you would like to be an assessor, please email vic.branch@statsoc.org.au alon
 ```{r date, echo = FALSE}
 tribble(~Date, ~What,
         "Mon 2nd Oct 2023", "Opening of submissions",
-        "<strike>Fri 24th Nov 2023</strike>Fri 8th Dec", "Close of submissions",
+        "<strike>Fri 24th Nov 2023</strike> Fri 8th Dec 2023", "Close of submissions",
         "March 2024 meeting", "Announcement of the award winner") %>% 
   knitr::kable()
 ```
