@@ -15,7 +15,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+# <i class="fas fa-trophy"></i> 2024 Winner
 
+Congratulations to Xiaolei (Adam) Wang for his work on the [bsvarSIGNs](https://bsvars.org/bsvarSIGNs/) package. This software implements state-of-the-art algorithms for the Bayesian analysis of Structural Vector Autoregressions identified by sign, zero, and narrative restrictions.
+
+There were many excellent submissions in this round, making judging difficult. In early 2025, we will hear from Adam and several of the near winners, describing their software. 
 
 # <i class="fas fa-bullhorn"></i> Call for Submission
 
