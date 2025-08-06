@@ -15,13 +15,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# <i class="fas fa-trophy"></i> 2024 Winner
-
-Congratulations to Xiaolei (Adam) Wang for his work on the [bsvarSIGNs](https://bsvars.org/bsvarSIGNs/) package. This software implements state-of-the-art algorithms for the Bayesian analysis of Structural Vector Autoregressions identified by sign, zero, and narrative restrictions.
-
-There were many excellent submissions in this round, making judging difficult. In early 2025, we will hear from Adam and several of the near winners, describing their software. 
-
 # <i class="fas fa-bullhorn"></i> Call for Submission
+
+Submissions for the 2025 Di Cook Award are now open!
 
 ## Eligibility
 
@@ -49,7 +45,7 @@ The applicant may also optionally submit:
 
 
 
-All of these items should be submitted by completing the application form under [Forms](#forms) before the application deadline. All submitted materials must be in English. 
+All of these items should be submitted by completing the application form under [Forms](https://forms.gle/8q7GD117EoNNbah16) before the application deadline. All submitted materials must be in English. 
 
 
 ## Judges & Assessors
@@ -57,12 +53,10 @@ All of these items should be submitted by completing the application form under 
 1. Assessors will be drawn from expert statistical software developers who are not entrants in the current round. 
 1. Assessors will be preferably drawn from outside of Victoria and Tasmania. 
 1. Assessors give input by completing the assessor form similar to the one supplied under [Forms](#forms).
-1. The judging panel will comprise committee members of the [Statistical Computing and Visualisation Section of the Statistical Society of Australia](https://www.statsoc.org.au/Statistical-Computing-and-Visualisation-Section) or other members selected by the SSA Vic & Tas council.
+1. The judging panel will comprise committee members of the [Statistical Computing and Visualisation Section of the Statistical Society of Australia](https://www.statsoc.org.au/Statistical-Computing-and-Visualisation-Section) or other members selected by the SSA SCV Committee.
 1. Assessors for this competition will be decided after close of submission upon consultation with the judging panel.
 1. A judging panel will collate assessors input to decide on the winner. 
 1. The decision of the judging panel is final.
-
-If you would like to be an assessor, please email vic.branch@statsoc.org.au along with your software expertise. 
 
 
 ## Application link
@@ -74,9 +68,9 @@ You will need to complete the <i class="fas fa-file-code"></i></span>[applicatio
 
 ```{r date, echo = FALSE}
 tribble(~Date, ~What,
-        "Jul 1, 2024", "Opening of submissions",
-        "Fri Nov 1, 2024", "Close of submissions",
-        "Dec 1, 2024", "Announcement of the award winner") %>% 
+        "Aug 6, 2025", "Opening of submissions",
+        "Fri Oct 31, 2025", "Close of submissions",
+        "Dec 1, 2025", "Announcement of the award winner") |> 
   knitr::kable()
 ```
 
@@ -84,7 +78,7 @@ tribble(~Date, ~What,
 
 # <i class="fas fa-trophy"></i> Prize
 
-The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2024.
+The awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2025.
 
 All applications of sufficient quality will have their tutorial (if supplied) made available on the website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues. 
 

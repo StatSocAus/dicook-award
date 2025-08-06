@@ -15,6 +15,7 @@ Statistical software tools make a considerable difference to the daily life of a
 
 The use of open-source software (e.g. Python and R) is fast growing among users of programming languages, and such software is widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address. 
 
+The Award was brought to fruition by the [Victoria and Tasmania Branch](https://www.statsoc.org.au/Victoria) of the Statistical Society of Australia, under the leadership of Dr Emi Tanaka.
 
 # <i class="fas fa-user"></i> Professor Dianne Cook
 
@@ -23,4 +24,4 @@ The use of open-source software (e.g. Python and R) is fast growing among users 
 
 # <i class="fas fa-envelope"></i> Contact
 
-If you have any enquiries about this award, please get in touch by emailing vic.branch@statsoc.org.au. 
+If you have any enquiries about this award, please get in touch by emailing any member of the [Statistical Computing and Visualisation Section](https://www.statsoc.org.au/Statistical-Computing-and-Visualisation-Section) of the statistical Society of Australia. 

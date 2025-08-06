@@ -4,6 +4,11 @@ description: |
   The list of past winners.
 ---
 
+## 2024
+
+Xiaolei (Adam) Wang for his work on the [bsvarSIGNs](https://bsvars.org/bsvarSIGNs/) package. This software implements state-of-the-art algorithms for the Bayesian analysis of Structural Vector Autoregressions identified by sign, zero, and narrative restrictions.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0UqwxWD0s_4?si=L9iN79oz1xSWpXSQ" title="Presentations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## 2022
 
@@ -20,3 +25,5 @@ The honourable mentions were:
 
 * **Sayani Gupta** on her software [**gravitas**](https://github.com/Sayani07/gravitas) and 
 * **Jeffrey Pulin** on his software [**rater**](https://github.com/jeffreypullin/rater).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krX9I3wAHBE?si=_M7uMBZk7NQLNcZ2" title="Presentations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
