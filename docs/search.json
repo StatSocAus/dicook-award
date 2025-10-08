@@ -6,7 +6,7 @@
       "description": "",
       "author": [],
       "contents": "\nStatistical software tools make a considerable difference to the daily life of an analyst. This Award aims to:\nEncourage statistical software development by providing formal recognition of these developments\nShowcase the pool of statistical software developers in our local communities and\nRaise awareness of the statistical tools developed by community members.\nThe use of open-source software (e.g. Python and R) is fast growing among users of programming languages, and such software is widely used for statistical computing and graphics. This Award focuses on open-source software because the methods are transparent to users, and many of the contributions are volunteered by the community with little remuneration or formal recognition. This is a factor which this Award aims to address.\nThe Award was brought to fruition by the Victoria and Tasmania Branch of the Statistical Society of Australia, under the leadership of Dr Emi Tanaka.\n Professor Dianne Cook\n Professor Dianne Cook was born and raised in regional Australia. She completed her Bachelor of Science at the University of New England before heading to the USA to complete her PhD in Statistics at Rutgers University. Prof. Cook spent most of her academic career at the Department of Statistics at the Iowa State University before returning back to Australia in 2015 to join the Department of Econometrics and Business Statistics at Monash University. She is particularly well known for her research in visual inference and high-dimensional data visualisation and as an avid advocate of statistical software development. A number of students under her supervision have developed highly successful R packages, including Hadley Wickham who developed ggplot2, Yihui Xie who developed knitr and Earo Wang who developed tsibble.\n Contact\nIf you have any enquiries about this award, please get in touch by emailing any member of the Statistical Computing and Visualisation Section of the statistical Society of Australia.\n\n\n\n",
-      "last_modified": "2025-08-06T11:59:31+10:00"
+      "last_modified": "2025-10-08T12:24:36+11:00"
     },
     {
       "path": "examples.html",
@@ -14,7 +14,7 @@
       "description": "This page shows example tutorials.\n",
       "author": [],
       "contents": "\n\nNot sure how to make your tutorial? Have a look at some contributions by experienced developers. Thank you to Dr. Earo Wang and Mitchell O’Hara-Wild for writing these tutorials!\n\n\n\n",
-      "last_modified": "2025-08-06T11:59:31+10:00"
+      "last_modified": "2025-10-08T12:24:37+11:00"
     },
     {
       "path": "index.html",
@@ -22,7 +22,7 @@
       "description": "Open-Source Statistical Software Award by Section on Statistical Computing and Visualisation\n",
       "author": [],
       "contents": "\n Call for Submission\nSubmissions for the 2025 Di Cook Award are now open!\nEligibility\nThe Award is open to students, or students who graduated within one year of the application due date, of any Australian educational institute.\nThe Award is not open to any work that has won another software competition or award, although the applicant may submit separate work that is significantly different to any previously winning work.\nThe applicant must have begun the development while enrolled as a student.\nThe applicant does not need to be an SSA member to apply for this award.\nIndividuals or teams are eligible to participate in this competition.\nIf the software development was a team effort, the major contribution should be that of the students.\nThe submitted software must be open-source and actively maintained at the time of entry.\nCriteria\nThe applicant must submit:\nA brief description of the importance of the software to statistical practice and discuss the advantages and disadvantages of the new contribution compared to existing implementations. Up to 400 words.\nAn installable software product (e.g. package or web app) with its source code for use by the judging panel. It should be accompanied by enough information to allow the judges to effectively use and evaluate the software (including its design considerations). This information can be provided in a variety of ways, including but not limited to: a user manual, a manuscript, a website, or an online help resource for the package.\nFor team developers, a letter endorsing that the majority of the software development was done by the student(s).\nThe applicant may also optionally submit:\nAny evidence of potential impact and usefulness to the community.\nAny accepted paper(s) related to the software.\nA written tutorial demonstrating the use of the software product with a limit of 4000 words that can be shared on this website.\nAll of these items should be submitted by completing the application form at Forms before the application deadline. All submitted materials must be in English.\nJudges & Assessors\nAssessors will be drawn from expert statistical software developers who are not entrants in the current round.\nAssessors will be preferably drawn from outside of Victoria and Tasmania.\nAssessors give input by completing the assessor form similar to the one supplied under Forms.\nThe judging panel will comprise committee members of the Statistical Computing and Visualisation Section of the Statistical Society of Australia or other members selected by the SSA SCV Committee.\nAssessors for this competition will be decided after close of submission upon consultation with the judging panel.\nA judging panel will collate assessors input to decide on the winner.\nThe decision of the judging panel is final.\nApplication link\nYou will need to complete the application form.\n Important Dates\n\nDate\nWhat\nAug 6, 2025\nOpening of submissions\nFri Oct 31, 2025\nClose of submissions\nDec 1, 2025\nAnnouncement of the award winner\n\n Prize\nThe awardee will receive a cash prize of $1,000 and an opportunity to present their work at an event planned in 2025.\nAll applications of sufficient quality will have their tutorial (if supplied) made available on the website (https://statsocaus.github.io/dicook-award/) with its introduction and link to the tutorial circulated to SSA Vic members and other avenues.\n\n\n\n",
-      "last_modified": "2025-08-06T11:59:32+10:00"
+      "last_modified": "2025-10-08T12:24:38+11:00"
     },
     {
       "path": "showcase.html",
@@ -30,7 +30,7 @@
       "description": "This page shows the list tutorials of some submissions to the Di Cook Award. You can get to know some statistical software product that students in Victoria or Tasmania have developed.\n",
       "author": [],
       "contents": "\n\nThis page shows the list tutorials of some submissions to the Di Cook Award. You can get to know some statistical software product that students in Victoria or Tasmania have developed.\n\n\n\n",
-      "last_modified": "2025-08-06T11:59:32+10:00"
+      "last_modified": "2025-10-08T12:24:39+11:00"
     },
     {
       "path": "winners.html",
@@ -38,7 +38,7 @@
       "description": "The list of past winners.",
       "author": [],
       "contents": "\n2024\nXiaolei (Adam) Wang for his work on the bsvarSIGNs package. This software implements state-of-the-art algorithms for the Bayesian analysis of Structural Vector Autoregressions identified by sign, zero, and narrative restrictions.\n\n\n2022\nThe winner was Floyd Everest on his software elections.dtree.\n2021\nThere were a total of 11 applications for the 2021 Di Cook Award. You can find the tutorials for some of these software in the showcase section.\nThe winner was Patrick Li on his software spotoroo.\nThe honourable mentions were:\nSayani Gupta on her software gravitas and\nJeffrey Pulin on his software rater.\n\n\n\n\n\n",
-      "last_modified": "2025-08-06T11:59:33+10:00"
+      "last_modified": "2025-10-08T12:24:39+11:00"
     }
   ],
   "collections": ["examples/examples.json", "tutorials/tutorials.json"]
