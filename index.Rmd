@@ -69,7 +69,7 @@ You will need to complete the <i class="fas fa-file-code"></i></span>[applicatio
 ```{r date, echo = FALSE}
 tribble(~Date, ~What,
         "Aug 6, 2025", "Opening of submissions",
-        "Fri ~Oct 31~, Nov 7, 2025", "Close of submissions",
+        "Fri ~~Oct 31~~, Nov 7, 2025", "Close of submissions",
         "Dec 1, 2025", "Announcement of the award winner") |> 
   knitr::kable()
 ```
