@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # <i class="fas fa-bullhorn"></i> Call for Submission
 
-Submissions for the 2025 Di Cook Award are now open!
+Details on the winner for the 2025 Di Cook Award are [here](winners.html). This Award has been renamed, at the request of Di Cook, and is now the [Statistical Computing and Visualisation Award](https://www.statsoc.org.au/Statistical-Computing-and-Visualisation-Section).
 
 ## Eligibility
 

@@ -4,6 +4,12 @@ description: |
   The list of past winners.
 ---
 
+## 2025
+
+[Harriet Mason](https://harrietmason.netlify.app) for her work on [ggdibbler](https://harriet-mason.github.io/ggdibbler/). This software package that enables visualising uncertainty in data on a variety of graphic outputs including raster plots, contour plots, stack plots and spatial plots.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cxul9o8-U5w?si=RZBJKJwSEOQjBf-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## 2024
 
 Xiaolei (Adam) Wang for his work on the [bsvarSIGNs](https://bsvars.org/bsvarSIGNs/) package. This software implements state-of-the-art algorithms for the Bayesian analysis of Structural Vector Autoregressions identified by sign, zero, and narrative restrictions.
